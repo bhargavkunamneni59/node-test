@@ -1,0 +1,23 @@
+
+1. Build this app on node version 6.11.4
+
+2. To install node modules please give below command
+    # npm run clean
+
+3. Once node modules installed then please give mysql database details in .env file
+
+    Example:
+        DB_HOST = 127.0.0.1
+        DB_PORT = 3306
+        DB_USER = root
+        DB_PASSWORD = root
+        DB_NAME = test
+
+4. To run app please give below command
+    # npm start
+
+5. To get the courses based on gpa and gre score and country and course name need to call below api
+
+    # localhost:3000/api/findcourses?gpa=5.5&greScore=300&country=USA&courseName=computer
+
+    I gave support fuzzy match for courseName.
